@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    height: 9vh;
+    width: 100%;
+    align-items: center;
+    border-bottom: 1px solid #636369;
+}
+
+
+header .image{
+    display: flex;
+    align-items: center;
+    height: 9vh;
+    width: 11vw;
+    padding-bottom: 15px;
+    padding-left: 25px;
+}
+
+header .image img{
+    height: 140px;
+    width: 230px;
+    padding: 25px 0 0 15px;
+}
+
+header .imageBox{
+    display: flex;
+    height: 9vh;
+    width: 4vw;
+}
+
+.imagebox img{
+    height: 2px;
+    width: 2px;
+}
+
+header .headerText{
+    height: 9vh;
+    width: 57vw;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    padding-top: 27px;
+    padding-left: 10px;
+}
+
+.headerText .promote{
+    padding-left: 15px;
+    font-weight: 400;
+    color: #636369;
+}
+
+.headerText .try{
+    color: #0066ff;
+    font-weight: 400;
+}
+
+nav{
+    display: inline-block;
+    height: 9vh;
+    width: 28vw;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+nav>ul{
+    display: inline-flex;
+    height: inherit;
+    width: inherit;
+    align-items: center;
+}
+
+nav>ul>li{
+    display: inline-flex;
+    height: inherit;
+    padding: 35px 23px 5px 15px;
+}
+
+nav > ul{
+    list-style-type: none;
+}
+
+nav > ul h2{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+nav > ul > li > .divider{
+    display: flex;
+    height: 65px;
+    width: 1px;
+    margin-left: 7px;
+    margin-right: 7px;
+    background-color: rgba(0, 0, 0, 0.085);
+}
+
+li:nth-child(3){
+    color: #FF0096;
+}
+
+.button{
+    display: flex;
+    height: 25px;
+    width: 40px;
+}
